@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mistborn vs Misting | Mistborn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="mist-layer mist-1"></div>
+  <div class="mist-layer mist-2"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <img class="brand-logo" src="assets/CoverMBjpg.jpg" alt="Mistborn The Final Empire cover" />
+      <div class="brand-text">
+        <h1>Mistborn: The Final Empire</h1>
+        <p>A guide to Mistborn: The Final Empire</p>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="world.html">The World</a>
+      <a href="metals.html">Allomancy & Metals</a>
+      <a class="active" href="mistings.html">Mistborn vs Misting</a>
+      <a href="rebellion.html">The Rebellion</a>
+      <a href="characters.html">Characters</a>
+      <a href="locations.html">Locations</a>
+      <a href="themes.html">Themes</a>
+    </nav>
+  </header>
+  <div class="accent-band"></div>
+
+  <main class="content">
+    <section class="page-intro">
+      <h2>Mistborn vs Misting</h2>
+      <p>
+        In the Final Empire, Allomancers swallow small amounts of metal and burn them internally. Mistings can burn a
+        single metal, while Mistborn can burn all eight basic metals. Choose a path below to learn what each can do.
+      </p>
+    </section>
+
+    <section class="choice-panel">
+      <div class="choice-buttons">
+        <button class="choice-btn" data-choice="mistborn">Mistborn</button>
+        <button class="choice-btn" data-choice="misting">Misting</button>
+      </div>
+
+      <div id="mistborn-panel" class="choice-content">
+        <h3>Mistborn</h3>
+        <p>
+          A Mistborn can burn all eight basic metals, combining their effects for fluid movement, heightened senses,
+          emotional influence, and stealth. Mistborn are extremely rare in the story. Vin and Kelsier are
+          prominent examples.
+        </p>
+        <p>Referred to as: Mistborn</p>
+      </div>
+
+      <div id="misting-panel" class="choice-content hidden">
+        <h3>Misting</h3>
+        <p>Choose a metal to learn the Misting type, ability, and how it is used.</p>
+        <div class="misting-select">
+          <label for="metalSelect">Metal</label>
+          <select id="metalSelect">
+            <option value="">Select a metal</option>
+            <option value="iron">Iron</option>
+            <option value="steel">Steel</option>
+            <option value="pewter">Pewter</option>
+            <option value="tin">Tin</option>
+            <option value="zinc">Zinc</option>
+            <option value="brass">Brass</option>
+            <option value="copper">Copper</option>
+            <option value="bronze">Bronze</option>
+          </select>
+        </div>
+        <div class="misting-result" id="mistingResult">
+          <p class="result-title">Awaiting selection</p>
+          <p class="result-detail">Pick a metal to reveal the metal name, Misting type, and power description.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>No spoilers beyond Mistborn: The Final Empire.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
