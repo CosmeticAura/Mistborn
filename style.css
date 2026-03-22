@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg-deep: #0f1113;
   --bg-mid: #171a1d;
   --bg-ash: #1e2226;
@@ -440,3 +440,13 @@ select {
     font-size: 2rem;
   }
 }
+
+.brand-byline {
+  margin: 0.25rem 0 0;
+  font-weight: 600;
+  color: var(--accent-metal);
+  letter-spacing: 0.4px;
+}
+
+
+
